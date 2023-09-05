@@ -8,7 +8,7 @@ import { transform } from "lodash";
 function Landing_Page({props}) {
     // console.log(props)
     return (
-        <div>
+        <div className="bg-[url('img/bg.jpg')] ">
             <TextLandingPage props={props} />
 
             <div className="grid grid-cols-2 max-md:grid-cols-1 ">

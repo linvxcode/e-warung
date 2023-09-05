@@ -3,7 +3,7 @@ import Landing_Page from "./Landing_Page";
 import Navbar from "@/Components/Navbar";
 
 export default function Welcome(props) {
-    console.log(props)
+    // console.log(props)
     return (
         <>
             <Head title="Welcome" />
@@ -12,7 +12,7 @@ export default function Welcome(props) {
             <Navbar orderId={props.order} props={props}  />
             </div>
 
-            <div className="relative sm:flex sm:justify-center sm:items-center bg-center bg-white text-black selection:text-white">
+            <div className="relative sm:flex sm:justify-center sm:items-center bg-center  text-black selection:text-white">
 
                 <Landing_Page props={props.auth} />
             </div>

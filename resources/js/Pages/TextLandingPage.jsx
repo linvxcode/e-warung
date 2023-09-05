@@ -3,7 +3,7 @@ import { motion} from "framer-motion";
 import { Link } from "@inertiajs/react";
 
 function TextLandingPage(props) {
-    console.log("Text", props)
+    // console.log("Text", props)
     // initial={{opacity: 0, x: -500}} transition={{type: "spring",bounce: 0.2,duration: 0.8}} animate={{opacity: 1, x: 0}} 
 
     // const Efek = {
@@ -22,203 +22,18 @@ function TextLandingPage(props) {
 //   };
     return (
         <div>
-            <div className="grid h-screen">
-                <div className="quote max-sm:p-16">
+            <div className="grid grid-cols-2 max-md:grid-cols-1 h-screen">
+                <div className="quote mt-20 max-sm:p-16">
                     <motion.div className="content w-[100%] block"
                                   initial={{opacity: 0, y: 100}}
                                   transition={{type: "spring",bounce: 0.2,duration: 1}}
                                   whileInView={{ opacity: 1, y: 0}}
                                   viewport={{ once: true }}
                     >
-                        <motion.span
-                            whileHover={{
-                                scale: 1.25,
-                                transition: {duration: 0.1}
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 1000,
-                                damping: 10,
-                            }}
-                            drag
-                            dragConstraints={{
-                                left: 0,
-                                right: 0,
-                                top: 0,
-                                bottom: 0,
-                            }}
-                            className="text-6xl font-semibold  table-cell max-md:text-5xl max-[525px]:text-4xl "
-                        >
-                            E
-                        </motion.span>
-                        <motion.span
-                            whileHover={{
-                                scale: 1.25,
-                                transition: {duration: 0.1}
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 1000,
-                                damping: 10,
-                            }}
-                            drag
-                            dragConstraints={{
-                                left: 0,
-                                right: 0,
-                                top: 0,
-                                bottom: 0,
-                            }}
-                            className="text-6xl font-semibold table-cell  max-md:text-5xl max-[525px]:text-4xl "
-                        >
-                            -
-                        </motion.span>
-                        <motion.span
-                            whileHover={{
-                                scale: 1.25,
-                                transition: {duration: 0.1}
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 1000,
-                                damping: 10,
-                            }}
-                            drag
-                            dragConstraints={{
-                                left: 0,
-                                right: 0,
-                                top: 0,
-                                bottom: 0,
-                            }}
-                            className="text-6xl font-semibold table-cell max-md:text-5xl max-[525px]:text-4xl "
-                        >
-                            W
-                        </motion.span>
-                        <motion.span
-                            whileHover={{
-                                scale: 1.25,
-                                transition: {duration: 0.1}
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 1000,
-                                damping: 10,
-                            }}
-                            drag
-                            dragConstraints={{
-                                left: 0,
-                                right: 0,
-                                top: 0,
-                                bottom: 0,
-                            }}
-                            className="text-6xl font-semibold table-cell max-md:text-5xl max-[525px]:text-4xl "
-                        >
-                            a
-                        </motion.span>
-                        <motion.span
-                            whileHover={{
-                                scale: 1.25,
-                                transition: {duration: 0.1}
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 1000,
-                                damping: 10,
-                            }}
-                            drag
-                            dragConstraints={{
-                                left: 0,
-                                right: 0,
-                                top: 0,
-                                bottom: 0,
-                            }}
-                            className="text-6xl font-semibold table-cell max-md:text-5xl max-[525px]:text-4xl "
-                        >
-                            r
-                        </motion.span>
-                        <motion.span
-                            whileHover={{
-                                scale: 1.25,
-                                transition: {duration: 0.1}
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 1000,
-                                damping: 10,
-                            }}
-                            drag
-                            dragConstraints={{
-                                left: 0,
-                                right: 0,
-                                top: 0,
-                                bottom: 0,
-                            }}
-                            className="text-6xl font-semibold table-cell max-md:text-5xl max-[525px]:text-4xl "
-                        >
-                            u
-                        </motion.span>
-                        <motion.span
-                            whileHover={{
-                                scale: 1.25,
-                                transition: {duration: 0.1}
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 1000,
-                                damping: 10,
-                            }}
-                            drag
-                            dragConstraints={{
-                                left: 0,
-                                right: 0,
-                                top: 0,
-                                bottom: 0,
-                            }}
-                            className="text-6xl font-semibold table-cell max-md:text-5xl max-[525px]:text-4xl "
-                        >
-                            n
-                        </motion.span>
-                        <motion.span
-                            whileHover={{
-                                scale: 1.25,
-                                transition: {duration: 0.1}
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 1000,
-                                damping: 10,
-                            }}
-                            drag
-                            dragConstraints={{
-                                left: 0,
-                                right: 0,
-                                top: 0,
-                                bottom: 0,
-                            }}
-                            className="text-6xl font-semibold table-cell max-md:text-5xl max-[525px]:text-4xl "
-                        >
-                            g
-                        </motion.span>
-                        <motion.span
-                            whileHover={{
-                                scale: 1.25,
-                                transition: {duration: 0.1}
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 1000,
-                                damping: 10,
-                            }}
-                            drag
-                            dragConstraints={{
-                                left: 0,
-                                right: 0,
-                                top: 0,
-                                bottom: 0,
-                            }}
-                            className="text-6xl pr-6 font-semibold table-cell max-md:text-5xl max-[525px]:text-4xl "
-                        >
-                            .
-                        </motion.span>
+                        <h1 className="font-sch text-5xl font-bold text-[#444444;]">E-warung</h1>
+                       
+                        <div className="block">
+
                         <motion.span
                             whileHover={{
                                 scale: 1.25,
@@ -347,6 +162,7 @@ function TextLandingPage(props) {
                         </motion.span>
 
                             
+                        </div>
 
 
                         <motion.div className="mt-3"
@@ -363,7 +179,13 @@ function TextLandingPage(props) {
                                 Shop Now
                             </Link>
                         </motion.div>
-                                    <Link
+                                  
+                    </motion.div>
+                </div>
+
+                <div className="p-20 max-md:hidden">
+
+                <Link
                 href={
                     props.user
                         ? route("shop")
@@ -426,8 +248,7 @@ function TextLandingPage(props) {
                 
             </motion.div>
             </Link>
-                    </motion.div>
-                </div>
+            </div>
             </div>
         </div>
     );
